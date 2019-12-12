@@ -53,7 +53,7 @@ CART ROUTES:  prefix = 'cart'
 {
 	"model_name": "Gibson Les Paul",
 	"model_type": "Electric",
-    "model_num": "AX245-34",
+        "model_num": "AX245-34",
 	"color": "Black",
 	"price": 7500,
 	"user_id": 0
@@ -62,7 +62,7 @@ CART ROUTES:  prefix = 'cart'
 {
 	"model_name": "Fender Stratocaster",
 	"model_type": "Electric",
-    "model_num": "JYC-28SX",
+        "model_num": "JYC-28SX",
 	"color": "Sunbrust",
 	"price": 3750,
 	"user_id": 0
@@ -71,7 +71,7 @@ CART ROUTES:  prefix = 'cart'
 {
 	"model_name": "Martin Dreadnought",
 	"model_type": "Acoustic",
-    "model_num": "D-28",
+        "model_num": "D-28",
 	"color": "Spruce Top/Rosewood Sides",
 	"price": 4500,
 	"user_id": 0
@@ -80,7 +80,7 @@ CART ROUTES:  prefix = 'cart'
 {
 	"model_name": "Gretsch ",
 	"model_type": "Electromatic Hollow Body",
-    "model_num": "G5420T",
+        "model_num": "G5420T",
 	"color": "Cobalt Blue",
 	"price": 3000,
 	"user_id": 0
