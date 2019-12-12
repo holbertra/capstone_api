@@ -1,14 +1,17 @@
-CAPSTONE API 
+CAPSTONE API
+
 A Shopping API to compare items by model, description and price
 
 ROUTES:
 
 AUTH ROUTES:  prefix = 'auth/'
+
 1. @auth_blueprint.route('/login', methods=['POST']) 
 2. @auth_blueprint.route('/register', methods=['POST'])
 3. @auth_blueprint.route('/logout', methods=['GET'])
 
 ITEM ROUTES:  prefix = 'item/'
+
 4. @item_blueprint.route('/new', methods=['POST'])
 5. @item_blueprint.route('/view/<int:item_id>', methods=['GET']) 
 6. @item_blueprint.route('/view/all/<int:user_id>', methods=['GET'])
@@ -16,6 +19,7 @@ ITEM ROUTES:  prefix = 'item/'
 8. @item_blueprint.route('/delete/<int:item_id>', methods=['DELETE'])  
 
 CART ROUTES:  prefix = 'cart'
+
 9.  @cart_blueprint.route('/add/<int:item_id>', methods=['GET', 'POST' ])
 10. @cart_blueprint.route('/delete/<int:user_id>', methods=['GET', 'PUT', 'DELETE']) 
 11. @cart_blueprint.route('/checkout', methods=['GET', 'POST']) 
