@@ -1,9 +1,7 @@
-$##############################  CAPSTONE API ##########################
+CAPSTONE API 
 A Shopping API to compare items by model, description and price
 
-$###################
-$# ROUTES:         #
-$###################
+ROUTES:
 
 AUTH ROUTES:  prefix = 'auth/'
 1. @auth_blueprint.route('/login', methods=['POST']) 
