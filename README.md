@@ -2,6 +2,16 @@ CAPSTONE API
 
 A Shopping API to compare items by model, description and price
 
+DATABASE SETUP: 
+Set these environment variables for the WINDOWS OS:
+$ENV:DATABASE_URL="postgresql://postgres:password123@localhost/capstone_db"
+$ENV:SECRET_KEY="qwertyuiop1234567890"
+
+Run:
+py manage.py db init
+py manage.py db migrate
+py manage.py db upgrade
+
 ROUTES:
 
 AUTH ROUTES:  prefix = 'auth/'
@@ -18,19 +28,18 @@ ITEM ROUTES:  prefix = 'item/'
 7. @item_blueprint.route('/view/all', methods=['GET'])
 8. @item_blueprint.route('/delete/<int:item_id>', methods=['DELETE'])  
 
-CART ROUTES:  prefix = 'cart'
+CART ROUTES:  prefix = 'cart/'
 
 9.  @cart_blueprint.route('/add/<int:item_id>', methods=['GET', 'POST' ])
 10. @cart_blueprint.route('/delete/<int:user_id>', methods=['GET', 'PUT', 'DELETE']) 
 11. @cart_blueprint.route('/checkout', methods=['GET', 'POST']) 
 
-$######################################################################
 
-$#######################################################################
-$# TESTING DATA:   USER & ITEM data to be copied into body of POSTMAN. #
-$#######################################################################
+TESTING DATA:   
+USER & ITEM data to be copied into body of POSTMAN. #
 
-$################ User Test Cases: #################
+
+-- User Test Cases: --
 {
 	"email": "elevenfifty@gmail.com",
 	"password": "a_very_secure_password123",
@@ -51,7 +60,7 @@ $################ User Test Cases: #################
 	"l_name": "Wick"
 }
 
-$################## Item Test Cases:  ###################
+-- Item Test Cases: --
 {
 	"model_name": "Gibson Les Paul",
 	"model_type": "Electric",
