@@ -43,6 +43,8 @@ def purchase_items():
     print(f'user_id:{user_id}')
     #Get user name, email from user table
     current_user = fetch_user(user_id)
+    if not current_user:
+        return 'No users exist or no carts to checkout'
 #    print(f'current_user:{current_user}')
     email = current_user['email']
     f_name = current_user['first_name']
