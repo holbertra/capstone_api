@@ -1,9 +1,9 @@
-##############################  CAPSTONE API ######################################
+$##############################  CAPSTONE API ######################################
 A Shopping API to compare items by model, description and price
 
-###################
-# ROUTES:         #
-###################
+$###################
+$# ROUTES:         #
+$###################
 
 AUTH ROUTES:  prefix = 'auth/'
 1. @auth_blueprint.route('/login', methods=['POST']) 
@@ -22,13 +22,13 @@ CART ROUTES:  prefix = 'cart'
 10. @cart_blueprint.route('/delete/<int:user_id>', methods=['GET', 'PUT', 'DELETE']) 
 11. @cart_blueprint.route('/checkout', methods=['GET', 'POST']) 
 
-#######################################################################################
+$######################################################################
 
-#######################################################################
-# TESTING DATA:   USER & ITEM data to be copied into body of POSTMAN. #
-#######################################################################
+$#######################################################################
+$# TESTING DATA:   USER & ITEM data to be copied into body of POSTMAN. #
+$#######################################################################
 
-################ User Test Cases: #################
+$################ User Test Cases: #################
 {
 	"email": "elevenfifty@gmail.com",
 	"password": "a_very_secure_password123",
@@ -49,7 +49,7 @@ CART ROUTES:  prefix = 'cart'
 	"l_name": "Wick"
 }
 
-################## Item Test Cases:  ###################
+$################## Item Test Cases:  ###################
 {
 	"model_name": "Gibson Les Paul",
 	"model_type": "Electric",
