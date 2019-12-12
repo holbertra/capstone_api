@@ -36,7 +36,7 @@ CART ROUTES:  prefix = 'cart/'
 
 
 TESTING DATA:   
-USER & ITEM data to be copied into body of POSTMAN. #
+USER & ITEM data to be copied into body of POSTMAN.
 
 
 -- User Test Cases: --
