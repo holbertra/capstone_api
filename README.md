@@ -48,7 +48,7 @@ USER & ITEM data to be copied into body of POSTMAN.
 }  
 
 {  
-     "email": "bogus@gmail.com", 
+     "email": "bogus@gmail.com",  
      "password": "hacked_password", 
      "f_name": "Mister",  
      "l_name": "Robot"  
