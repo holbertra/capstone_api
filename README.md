@@ -41,10 +41,10 @@ USER & ITEM data to be copied into body of POSTMAN.
 
 -- User Test Cases: --  
 {  
-	   "email": "elevenfifty@gmail.com",  
-	   "password": "a_very_secure_password123",  
-	   "f_name": "Saint",  
-	   "l_name": "Nick"  
+		   "email": "elevenfifty@gmail.com",  
+		   "password": "a_very_secure_password123",  
+		   "f_name": "Saint",  
+		   "l_name": "Nick"  
 }  
 
 {
