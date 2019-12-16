@@ -52,13 +52,13 @@ USER & ITEM data to be copied into body of POSTMAN.
      "password": "hacked_password", 
      "f_name": "Mister",  
      "l_name": "Robot"  
-}  
+}   
 
 {  
      "email": "cracker@msn.com",  
      "password": "iamaviolentdude",  
      "f_name": "John",  
-      "l_name": "Wick"  
+     "l_name": "Wick"  
 }  
 
 -- Item Test Cases: --  
